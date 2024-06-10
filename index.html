@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/22650dc81e.js" crossorigin="anonymous"></script>
+</head>
+<body > 
+   <div id="header" >
+    <div id="container">
+        <nav>
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li> 
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi ,I'm <span>Surya Kiran</span></h1>
+            <p>Web Developer</p>
+        </div>
+    </div>
+   </div> 
+
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about me.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub">About me</h1><br>
+                <p>I am currently pursuing a Bachelor's degree in Technology, specializing in Computer Science with a focus on Artificial Intelligence. 
+                    My passion for artificial intelligence drives me to continually seek out new opportunities to enhance my knowledge and skills in this cutting-edge field.
+                    <br>
+                 <br>In addition to my enthusiasm for artificial intelligence, I have a strong interest in web development. 
+                 I believe that merging artificial intelligence with web development can lead to the creation of innovative and impactful solutions. I am always excited to collaborate on projects that intersect these two areas.
+                <br>
+                  <br>Driven by ambition and a desire for growth, I am constantly on the lookout for new challenges and learning opportunities. 
+                  I thrive in environments that push me to expand my horizons and deepen my understanding, and I am eager to contribute my skills to meaningful and challenging projects.
+
+                </p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        
+                        <li><span>Languages</span><br>C</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>My Sql</li>
+                        <li>Data structures</li>
+                        <li><span>Web Development</span><br>website devlopment</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>January-March</span><br>C Programming Course at Faceprep</li>
+                        <li><span>May-June</span><br>Web Developer</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+   <div id="services">
+    <div class="container">
+        <h1 class="sub">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>That's fantastic! Being proficient in web development with HTML, CSS, and JavaScript opens up a world of possibilities. With these skills, you can create dynamic and interactive websites that cater to various needs and audiences. 
+                    Whether you're building a personal portfolio, an e-commerce platform, or a blog, your expertise in web development will allow you to bring your ideas to life on the digital stage. Keep honing your skills and exploring new technologies to stay at the forefront of web development!<br> website using html,css and javascript   </p>
+                <a href="https://www.geeksforgeeks.org/web-development/">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-bar"></i>
+                <h2>Power BI</h2>
+                <p>Microsoft Power BI is an interactive data visualization software product developed by Microsoft with a primary focus on business intelligence.
+                    <br>It is part of the Microsoft Power Platform. Power BI is a collection of software services, apps, and connectors that work together to turn various sources of data into static and interactive data visualizations.
+                </p>
+                <a href="https://www.geeksforgeeks.org/power-bi-tools-and-functionalities/?ref=header_search">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+   </div>
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>Responsive landing Website</h3>
+                    <p>Welcome to the Responsive website, showcasing essential details about our institution. 
+                        The responsive navigation bar ensures easy access to different sections, enhancing your browsing experience.</p>
+                    <a href="https://suryakiran23.github.io/PRODIGY_WD_01/"><i class="fa-brands fa-staylinked"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.jpg">
+                <div class="layer">
+                    <h3>Stop Watch Website</h3>
+                    <p>This website is dedicated to crafting a user-friendly stopwatch web application utilizing HTML, CSS, and JavaScript. 
+                        Our goal is to create a seamless experience for users, enabling them to effortlessly start, stop, pause, and lap time with ease.</p>
+                    <a href="https://suryakiran23.github.io/PRODIGY_WD_02/"><i class="fa-brands fa-staylinked"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpg">
+                <div class="layer">
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p>The focus of this website is to develop a Tic-Tac-Toe game using HTML, CSS, and JavaScript. 
+                        Our aim is to provide an engaging and interactive gaming experience for users.</p>
+                    <a href=" https://suryakiran23.github.io/PRODIGY_WD_03/"><i class="fa-brands fa-staylinked"></i></a>
+                </div>
+            </div>
+           
+        </div>
+        <a href="https://github.com/suryakiran23?tab=repositories" class="btn">
+            See More
+        </a>
+    </div>
+   </div>
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><span>Contact Me</span></h1>
+                <p><i class="fa-solid fa-envelopes-bulk"></i>suryakiran2806@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>8688643636</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/surya-kiran-gorapalli-5778b0232/"><i class="fa-brands fa-linkedin"></i></a
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>    
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright @Suryakiran </p>
+    </div>
+   </div>
+   <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+   <script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right='0';
+    }
+    function closemenu(){
+        sidemenu.style.right='-200px';
+    }
+   </script>
+   
+</body>
+</html>
+
+<!-- <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxOqLKD9Oh52NjACIYRgIfd1VJbgwU3SGM-73QEGLcHTZdf2SGPMr7ijDZiHx-Lm2yjIQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            serTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script> -->
+
+<!--   <div class="work">
+    <img src="images/work3.jpg">
+    <div class="layer">
+        <h3>Tic-Tac-Toe Game</h3>
+        <p>This website was focused on creating a Tic-Tac-Toe game using html,css,javascript</p>
+        <a href=" https://amulyaarelli.github.io/PRODIGY_WB_03/"><i class="fa-brands fa-staylinked"></i></a>
+    </div>
+</div> 121--> 
